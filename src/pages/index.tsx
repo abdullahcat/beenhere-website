@@ -6,6 +6,7 @@ import 'tailwindcss/tailwind.css';  // adjust path if necessary
 import Link from 'next/link';
 import Image from 'next/image';
 import { Link as ScrollLink } from 'react-scroll';
+import Head from 'next/head';
 const HomePage: React.FC = () => {
     useEffect(() => {
         AOS.init({
@@ -17,6 +18,9 @@ const HomePage: React.FC = () => {
 
     return (
         <div>
+            <Head>
+                <title>BeenHere</title>
+            </Head>
             <div className="min-h-screen flex flex-col items-center justify-center bg-black relative md:px-16 px-4 rounded-lg">
                 <div className="absolute top-0 left-0 w-full h-full md:px-16 px-4 pt-20 overflow-hidden">
                     <Image src="/pexels-ketut-subiyanto-4429501.jpg" alt="pexels-ketut-subiyanto-4429501" className="w-full h-full object-cover rounded-t-3xl" />
@@ -68,7 +72,7 @@ const HomePage: React.FC = () => {
                             You can share your thoughts and experiences from any spesific location in the world.
                         </h1>
                         <h1 className="lg:text-3xl md:text-2xl text-xl     px-4">
-                            Whether you're visiting a new city, exploring an hidden gem or simply want to leave your mark on a special place, BeenHere makes it easy to share your voice.                        </h1>
+                            Whether you&apos;re visiting a new city, exploring an hidden gem or simply want to leave your mark on a special place, BeenHere makes it easy to share your voice.                        </h1>
                     </div>
                     <div className=" md:flex-1 md:py-10 p-4" data-aos="fade-up" >
                         <picture>
@@ -130,7 +134,7 @@ const HomePage: React.FC = () => {
                         <h2 className="text-2xl md:text-5xl mb-4">Nostalgic Reverie: Revisit Your Memories, Anytime, Anywhere
                         </h2>
                         <p className="mb-4">
-                            Relive your past adventures with a digital diary of places you've been. BeenHere keeps your memories vivid, ready to be revisited anytime, enriching your ongoing journey with reflections from the past.
+                            Relive your past adventures with a digital diary of places you&apos;ve been. BeenHere keeps your memories vivid, ready to be revisited anytime, enriching your ongoing journey with reflections from the past.
 
                         </p>
                         <a href="#" className="text-blue-500 hover:underline">Watch the Video</a>
