@@ -120,7 +120,7 @@ const HomePage: React.FC = () => {
                     </div>
                     <div className="md:flex-1 p-4 flex justify-center items-center" data-aos="fade-up">
                         <Image
-                            src="https://www.theonlinemom.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-14-at-10.54.52-AM.png"
+                            src="/beenherefriedns.png"
                             alt="BeenHere Friends"
                             className="w-full md:h-[32rem] object-contain"  // Adjust the max-w-lg to a smaller value if necessary
                         />
@@ -153,8 +153,8 @@ const HomePage: React.FC = () => {
                 <div className="flex flex-col pt-15  md:flex-row md:p-20 p-4" data-aos="fade-up">
                     <div className="flex-2   ">
                         <Image
-                            src="https://images.pexels.com/photos/2804411/pexels-photo-2804411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                            alt="Descriptive Alt Text"
+                            src="/pexels-photo-2804411.jpeg"
+                            alt="pexels-photo-2804411"
                             className="w-full object-cover h-full"
                         />
 
