@@ -78,7 +78,7 @@ const HomePage: React.FC = () => {
                         <picture>
                             <source srcSet="https://scontent.whatsapp.net/v/t39.8562-34/315632381_5616928641708856_9210500231334849736_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=nA7HwOIK3KMAX9I5ik0&_nc_ht=scontent.whatsapp.net&oh=01_AdTGHCHJ-IZdBYMK2hwl6rYgV4ZC07dwe9GNcQS55Jbszg&oe=6515E28D" media="(min-width: 768px)" />
                             <source srcSet="https://scontent.whatsapp.net/v/t39.8562-34/315480134_1332364444241595_6824421575333722036_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=LEJ7ETmh0qIAX8ezNHc&_nc_ht=scontent.whatsapp.net&oh=01_AdRiboWRetYgF0z9X4hSxcbnqD_sUNziuKGNjABP-QUfmw&oe=651663B4" media="(min-width: 640px)" />
-                            <Image
+                            <img
                                 src="https://scontent.whatsapp.net/v/t39.8562-34/316548958_5436561303122573_4246709535004834509_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=Y87bJWoa-nUAX9vp4tS&_nc_ht=scontent.whatsapp.net&oh=01_AdRgEAmWHqy7IqY2Kj7sUkAWCdtP7aJMatU0Iwzo-tc62Q&oe=65154CB7"
                                 alt="Example Image"
                                 className="w-full object-cover rounded-lg"
@@ -152,7 +152,7 @@ const HomePage: React.FC = () => {
             <div className=" bg-beenhere_gray   items-center    justify-center    relative">
                 <div className="flex flex-col pt-15  md:flex-row md:p-20 p-4" data-aos="fade-up">
                     <div className="flex-2   ">
-                        <Image
+                        <img
                             src="/pexels-photo-2804411.jpeg"
                             alt="pexels-photo-2804411"
                             className="w-full object-cover h-full"
