@@ -1,6 +1,11 @@
+import Head from "next/head";
+
 function TermsOfService() {
     return (
         <div>
+            <Head>
+                <title>Terms of Service</title>
+            </Head>
             <div className="min-h-screen  bg-beenhere_gray flex items-center justify-center">
                 <div className="text-left md:mx-20 mt-20 space-y-4 p-4">
                     <h1 className="text-4xl font-bold ">Terms of Service</h1>
