@@ -54,11 +54,11 @@ const HomePage: React.FC = () => {
                 <div className="md:flex-row items-center justify-center md:w-3/4  space-y-4 md:space-y-0 md:space-x-4 w-full  ">
                     <div className="md:flex-1 md:py-10 p-4" data-aos="fade-up">
                         <picture>
-                            <source srcSet="https://scontent.whatsapp.net/v/t39.8562-34/315574582_669241857978207_6336028129238262344_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=-A5NiY02C3QAX8Budlt&_nc_oc=AQn1fBy-AQNyqXvENW5hQg1AJLlrnL9CAuTMXLO-MgBoFY0etciyfi1QdSyQ7tIfxz8&_nc_ht=scontent.whatsapp.net&oh=01_AdR1yWdKbplsvpk89oN0KWgxfrb9FqNEpUMmdHdDxO_i1w&oe=65171E0C" media="(min-width: 768px)" />
-                            <source srcSet="https://scontent.whatsapp.net/v/t39.8562-34/315639168_1101279470583084_2167618893759059342_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=f1wj_UzFY-0AX-lbOV-&_nc_ht=scontent.whatsapp.net&oh=01_AdR0w9T4_ihUuSqcwqn46Zo62B1q9txAxRRtuOmHZyWKhg&oe=651550EB" media="(min-width: 640px)" />
+                            <source srcSet="315574582_669241857978207_6336028129238262344_n.png" media="(min-width: 768px)" />
+                            <source srcSet="315639168_1101279470583084_2167618893759059342_n.png" media="(min-width: 640px)" />
                             <img
-                                src="https://scontent.whatsapp.net/v/t39.8562-34/316527053_519225873581614_3866221552589773492_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=MwVyw8zASlkAX-nsJXs&_nc_ht=scontent.whatsapp.net&oh=01_AdR2z1qBoV4jG2BgZ7b4b30ePmpciP2NGrKBOKTbhz8rzQ&oe=6515E6CB"
-                                alt="Example Image"
+                                src="316527053_519225873581614_3866221552589773492_n.png"
+                                alt="Persons"
                                 className="w-full object-cover rounded-lg"
                             />
                         </picture>
@@ -76,11 +76,11 @@ const HomePage: React.FC = () => {
                     </div>
                     <div className=" md:flex-1 md:py-10 p-4" data-aos="fade-up" >
                         <picture>
-                            <source srcSet="https://scontent.whatsapp.net/v/t39.8562-34/315632381_5616928641708856_9210500231334849736_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=nA7HwOIK3KMAX9I5ik0&_nc_ht=scontent.whatsapp.net&oh=01_AdTGHCHJ-IZdBYMK2hwl6rYgV4ZC07dwe9GNcQS55Jbszg&oe=6515E28D" media="(min-width: 768px)" />
-                            <source srcSet="https://scontent.whatsapp.net/v/t39.8562-34/315480134_1332364444241595_6824421575333722036_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=LEJ7ETmh0qIAX8ezNHc&_nc_ht=scontent.whatsapp.net&oh=01_AdRiboWRetYgF0z9X4hSxcbnqD_sUNziuKGNjABP-QUfmw&oe=651663B4" media="(min-width: 640px)" />
+                            <source srcSet="315632381_5616928641708856_9210500231334849736_n.png" media="(min-width: 768px)" />
+                            <source srcSet="315480134_1332364444241595_6824421575333722036_n.png" media="(min-width: 640px)" />
                             <img
-                                src="https://scontent.whatsapp.net/v/t39.8562-34/316548958_5436561303122573_4246709535004834509_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=Y87bJWoa-nUAX9vp4tS&_nc_ht=scontent.whatsapp.net&oh=01_AdRgEAmWHqy7IqY2Kj7sUkAWCdtP7aJMatU0Iwzo-tc62Q&oe=65154CB7"
-                                alt="Example Image"
+                                src="316548958_5436561303122573_4246709535004834509_n.png"
+                                alt="Personas"
                                 className="w-full object-cover rounded-lg"
                             />
                         </picture>
